@@ -121,3 +121,35 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .wrapper h1 {
+    font-size: 30px;
+  }
+
+  .input-box input {
+    padding: 15px;
+  }
+
+  .input-box i {
+    right: 10%;
+  }
+
+  .remember-forgot {
+    font-size: 14px;
+  }
+
+  .btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .register-link {
+    font-size: 14px;
+  }
+}
